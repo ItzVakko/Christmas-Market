@@ -18,6 +18,7 @@ a {
   padding: 20px 40px;
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 
 .favicon-image {
@@ -111,7 +112,6 @@ a {
 
 .main-wrapper {
   width: 80%;
-  height: 300px;
   margin: 0 auto;
   margin-top: 28%;
   background-color: #fff5ec;
@@ -122,6 +122,29 @@ a {
   color: #4a447e;
   font-size: 35px;
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.christmas-card {
+  cursor: pointer;
+  padding-bottom: 30px;
+}
+
+.christmas-card img {
+  width: 100%;
+}
+
+.christmas-card h3 {
+  color: #c94226;
+  font-size: 21px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.christmas-card p {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 8px;
 }
 
 /* only one class styles */
