@@ -213,6 +213,14 @@ a {
   margin-bottom: 30px;
 }
 
+/* mobile shown styles */
+
+.burger-menu-icon,
+.search-icon {
+  width: 30px;
+  height: 30px;
+}
+
 /* only one class styles */
 
 .flex {

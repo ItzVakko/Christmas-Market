@@ -1,0 +1,165 @@
+@media screen and (max-width: 1500px) {
+  .header-content-wrapper {
+    transform: translateY(200px);
+  }
+
+  .welcome-text {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header-content-wrapper {
+    transform: translateY(200px);
+  }
+
+  .tree-decoration {
+    width: 90px;
+  }
+
+  .welcome-text {
+    font-size: 40px;
+  }
+
+  .market-working-time-text {
+    font-size: 20px;
+  }
+
+  .shopping-button {
+    font-size: 15px;
+    padding-top: 13px;
+  }
+
+  .main-title {
+    font-size: 25px;
+  }
+
+  .christmas-card h3 {
+    font-size: 16px;
+  }
+
+  .christmas-card p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .favicon-image {
+    width: 32px;
+    height: 32px;
+  }
+
+  .nav-title {
+    font-size: 16px;
+  }
+
+  .nav-buttons-wrapper {
+    font-size: 13px;
+    gap: 20px;
+  }
+
+  .login-wrapper {
+    font-size: 13px;
+  }
+
+  .login-wrapper img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .white-line {
+    height: 18px;
+  }
+
+  .shopping-bag {
+    width: 16px;
+    height: 20px;
+  }
+
+  .header-content-wrapper {
+    transform: translateY(150px);
+  }
+
+  .tree-decoration {
+    width: 70px;
+  }
+
+  .welcome-text {
+    font-size: 33px;
+  }
+
+  .market-working-time-text {
+    font-size: 15px;
+  }
+
+  .shopping-button {
+    font-size: 12px;
+  }
+
+  .main-wrapper {
+    margin-top: 24%;
+    padding: 30px 40px;
+  }
+
+  .main-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .christmas-card h3 {
+    font-size: 12px;
+  }
+
+  .christmas-card p {
+    font-size: 10px;
+  }
+
+  .footer-wrapper h4 {
+    font-size: 20px;
+  }
+
+  .footer-line {
+    margin: 25px 0;
+  }
+
+  .footer-wrapper h5 {
+    font-size: 20px;
+  }
+
+  .footer-info-wrapper a,
+  .footer-info-wrapper p {
+    font-size: 11px;
+  }
+
+  .footer-rights-reserved {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav-wrapper {
+    padding: 15px 40px;
+  }
+
+  .nav-buttons-wrapper {
+    display: none;
+  }
+
+  .login-wrapper p {
+    display: none;
+  }
+
+  .white-line {
+    display: none;
+  }
+
+  .login-wrapper img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .shopping-bag {
+    width: 20px;
+    height: 24px;
+  }
+}
