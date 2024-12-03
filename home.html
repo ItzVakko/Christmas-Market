@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Christmas Market</title>
+    <link
+      rel="shortcut icon"
+      href="./Assets/Images/favicon.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./home.css" />
   </head>
   <body>
     <!-- navbar section -->
+
     <nav class="nav-wrapper flex items-center justify-between">
       <div class="flex gap-10 items-center">
         <img
@@ -16,31 +22,36 @@
           alt="favicon"
         />
         <h1 class="nav-title">
-          Christmas<br />
-          Market
+          <a href="./home.html">
+            Christmas<br />
+            Market</a
+          >
         </h1>
       </div>
 
       <ul class="nav-buttons-wrapper flex font-arial">
-        <li><a>Accessories</a></li>
-        <li><a>Decorations</a></li>
-        <li><a>Kids Toys</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Decorations</a></li>
+        <li><a href="#">Kids Toys</a></li>
         <li>|</li>
-        <li><a>About Us</a></li>
-        <li><a>Contact Us</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
       </ul>
 
       <div class="flex gap-10 items-center">
-        <div class="login-wrapper flex gap-10 items-center font-arial">
+        <a href="#" class="login-wrapper flex gap-10 items-center font-arial">
           <img src="./Assets/Images/guest-icon.png" alt="guest-icon" />
-          <a href="#">Log in</a>
-        </div>
+          <p>Log in</p></a
+        >
         <div class="white-line"></div>
-        <img
-          class="shopping-bag"
-          src="./Assets/Images/shopping-bag-icon.png"
-          alt="shopping-bag"
-        />
+
+        <a href="#">
+          <img
+            class="shopping-bag"
+            src="./Assets/Images/shopping-bag-icon.png"
+            alt="shopping-bag"
+          />
+        </a>
       </div>
     </nav>
 
@@ -74,6 +85,8 @@
       </div>
     </header>
 
+    <!-- main section -->
+
     <main class="main-wrapper">
       <h2 class="main-title font-arial">Shop by Categories</h2>
 
@@ -83,21 +96,27 @@
             src="./Assets/Images/accessories-banner.png"
             alt="accessories-banner"
           />
-          <h3 class="font-arial">Christmas Accessories</h3>
-          <p class="font-arial">Shop Collection</p>
+          <div class="card-description-wrapper">
+            <h3 class="font-arial">Christmas Accessories</h3>
+            <p class="font-arial">Shop Collection</p>
+          </div>
         </div>
         <div class="christmas-card">
           <img
             src="./Assets/Images/decorations-banner.png"
             alt="decorations-banner"
           />
-          <h3 class="font-arial">Christmas Decorations</h3>
-          <p class="font-arial">Shop Collection</p>
+          <div class="card-description-wrapper">
+            <h3 class="font-arial">Christmas Decorations</h3>
+            <p class="font-arial">Shop Collection</p>
+          </div>
         </div>
         <div class="christmas-card">
           <img src="./Assets/Images/toys-banner.png" alt="toys-banner" />
-          <h3 class="font-arial">Christmas Kids Toys</h3>
-          <p class="font-arial">Shop Collection</p>
+          <div class="card-description-wrapper">
+            <h3 class="font-arial">Christmas Kids Toys</h3>
+            <p class="font-arial">Shop Collection</p>
+          </div>
         </div>
       </div>
     </main>

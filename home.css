@@ -39,6 +39,14 @@ a {
   gap: 25px;
 }
 
+.nav-buttons-wrapper li a {
+  transition: color 0.5s ease;
+}
+
+.nav-buttons-wrapper li a:hover {
+  color: #f3968e;
+}
+
 .login-wrapper {
   color: white;
 }
@@ -46,6 +54,14 @@ a {
 .login-wrapper img {
   width: 35px;
   height: 35px;
+}
+
+.login-wrapper p {
+  transition: color 0.5s ease;
+}
+
+.login-wrapper p:hover {
+  color: #f3968e;
 }
 
 .shopping-bag {
@@ -128,17 +144,29 @@ a {
 .christmas-card {
   cursor: pointer;
   padding-bottom: 30px;
+  overflow: hidden;
 }
 
 .christmas-card img {
   width: 100%;
+  transition: transform 0.9s ease, filter 0.5s ease;
+}
+
+.christmas-card:hover img {
+  transform: scale(1.1);
+  filter: brightness(0.6);
+}
+
+.card-description-wrapper {
+  background-color: #fff5ec;
+  position: relative;
+  padding-top: 12px;
 }
 
 .christmas-card h3 {
   color: #c94226;
   font-size: 21px;
   text-align: center;
-  margin-top: 12px;
 }
 
 .christmas-card p {
