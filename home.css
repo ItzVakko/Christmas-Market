@@ -175,10 +175,52 @@ a {
   margin-top: 8px;
 }
 
+.footer-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.footer-wrapper h4 {
+  color: #686461;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.footer-line {
+  width: 100%;
+  background-color: #adadad;
+  height: 1px;
+  margin: 35px 0;
+}
+
+.footer-wrapper h5 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #686461;
+}
+
+.footer-info-wrapper a,
+.footer-info-wrapper p {
+  color: #686461;
+  font-size: 15px;
+}
+
+.footer-rights-reserved {
+  color: #686461;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
 /* only one class styles */
 
 .flex {
   display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
 }
 
 .justify-center {
@@ -195,6 +237,10 @@ a {
 
 .gap-10 {
   gap: 10px;
+}
+
+.gap-15 {
+  gap: 15px;
 }
 
 .font-arial {
