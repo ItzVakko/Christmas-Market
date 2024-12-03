@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff5ec;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-wrapper {
+  background-color: #4a447e;
+  padding: 20px 40px;
+  position: fixed;
+  width: 100%;
+}
+
+.favicon-image {
+  width: 45px;
+  height: 45px;
+}
+
+.nav-title {
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+.nav-buttons-wrapper {
+  list-style-type: none;
+  font-size: 16px;
+  color: white;
+  gap: 25px;
+}
+
+.login-wrapper {
+  color: white;
+}
+
+.login-wrapper img {
+  width: 35px;
+  height: 35px;
+}
+
+.shopping-bag {
+  width: 23px;
+  height: 28px;
+}
+
+.white-line {
+  width: 1px;
+  height: 25px;
+  margin: 0 10px;
+  background-color: white;
+}
+
+.header-wrapper {
+  position: relative;
+}
+
+.background-video {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(0.7);
+}
+
+.header-content-wrapper {
+  transform: translateY(300px);
+  flex-direction: column;
+}
+
+.tree-decoration {
+  width: 120px;
+}
+
+.welcome-text {
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  margin-top: 10px;
+}
+
+.market-working-time-text {
+  color: white;
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+.shopping-button {
+  border: 0;
+  background-color: #fff5ec;
+  font-size: 17px;
+  padding: 13px 22px;
+  padding-top: 15px;
+  cursor: pointer;
+  border: 1px solid #fff5ec;
+  margin-top: 25px;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.3s ease;
+}
+
+.shopping-button:hover {
+  background: transparent;
+  color: white;
+}
+
+.main-wrapper {
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 28%;
+  background-color: #fff5ec;
+  padding: 40px 80px;
+}
+
+.main-title {
+  color: #4a447e;
+  font-size: 35px;
+  text-align: center;
+}
+
+/* only one class styles */
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.font-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
