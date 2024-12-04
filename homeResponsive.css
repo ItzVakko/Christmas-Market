@@ -188,6 +188,11 @@
     padding: 10px 16px;
   }
 
+  .main-wrapper {
+    width: 90%;
+    padding: 20px 40px;
+  }
+
   .main-title {
     font-size: 16px;
   }
@@ -215,5 +220,106 @@
 
   .footer-rights-reserved {
     font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-wrapper {
+    padding: 10px 15px;
+  }
+
+  .login-wrapper img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .burger-menu-icon,
+  .search-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .shopping-bag {
+    width: 15px;
+    height: 19px;
+  }
+
+  .header-content-wrapper {
+    transform: translateY(100px);
+  }
+
+  .tree-decoration {
+    width: 40px;
+  }
+
+  .welcome-text {
+    font-size: 20px;
+  }
+
+  .main-wrapper {
+    margin-top: 30%;
+    padding: 20px 10px;
+  }
+
+  .shopping-button {
+    display: none;
+  }
+
+  .main-title {
+    font-size: 15px;
+  }
+
+  .footer-infos-wrapper {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav-wrapper {
+    padding: 5px 15px;
+  }
+
+  .favicon-image {
+    width: 25px;
+    height: 25px;
+  }
+
+  .nav-title {
+    font-size: 11px;
+  }
+
+  .login-wrapper img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .burger-menu-icon,
+  .search-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .shopping-bag {
+    width: 10px;
+    height: 14px;
+  }
+
+  .header-content-wrapper {
+    transform: translateY(60px);
+  }
+
+  .tree-decoration {
+    width: 30px;
+  }
+
+  .welcome-text {
+    font-size: 16px;
+  }
+
+  .main-wrapper {
+    width: 100%;
+    margin-top: 30%;
+    padding: 10px 6px;
   }
 }
