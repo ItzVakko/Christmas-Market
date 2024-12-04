@@ -269,15 +269,6 @@
     font-size: 15px;
   }
 
-  .christmas-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .christmas-card {
-    width: 70%;
-  }
-
   .footer-infos-wrapper {
     flex-wrap: wrap;
     gap: 30px;
@@ -324,15 +315,6 @@
 
   .welcome-text {
     font-size: 16px;
-  }
-
-  .christmas-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .christmas-card {
-    width: 70%;
   }
 
   .main-wrapper {
