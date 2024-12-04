@@ -193,11 +193,11 @@
   }
 
   .christmas-card h3 {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .christmas-card p {
-    font-size: 7px;
+    font-size: 9px;
   }
 
   .footer-wrapper h4 {
@@ -205,15 +205,15 @@
   }
 
   .footer-wrapper h5 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .footer-info-wrapper a,
   .footer-info-wrapper p {
-    font-size: 9px;
+    font-size: 11px;
   }
 
   .footer-rights-reserved {
-    font-size: 9px;
+    font-size: 11px;
   }
 }
