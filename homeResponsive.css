@@ -326,6 +326,15 @@
     font-size: 16px;
   }
 
+  .christmas-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .christmas-card {
+    width: 70%;
+  }
+
   .main-wrapper {
     width: 100%;
     margin-top: 30%;
