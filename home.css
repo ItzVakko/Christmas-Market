@@ -215,6 +215,10 @@ a {
 
 /* mobile shown styles */
 
+.burger-search-wrapper {
+  display: none;
+}
+
 .burger-menu-icon,
 .search-icon {
   width: 30px;
