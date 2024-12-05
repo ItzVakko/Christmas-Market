@@ -1,225 +1,84 @@
 @media screen and (max-width: 1500px) {
   .header-content-wrapper {
-    transform: translateY(200px);
-  }
-
-  .welcome-text {
-    font-size: 50px;
+    transform: translateY(220px);
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
+  .background-video {
+    height: 700px;
+  }
+
   .header-content-wrapper {
     transform: translateY(200px);
   }
 
-  .tree-decoration {
-    width: 90px;
-  }
-
-  .welcome-text {
-    font-size: 40px;
-  }
-
-  .market-working-time-text {
-    font-size: 20px;
-  }
-
-  .shopping-button {
-    font-size: 15px;
-    padding-top: 13px;
-  }
-
-  .main-title {
-    font-size: 25px;
-  }
-
-  .christmas-card h3 {
-    font-size: 16px;
-  }
-
-  .christmas-card p {
-    font-size: 14px;
+  .main-wrapper {
+    width: 90%;
+    margin-top: 290px;
+    padding: 40px 40px;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .favicon-image {
-    width: 32px;
-    height: 32px;
+  .nav-wrapper {
+    padding: 10px 40px;
   }
 
-  .nav-title {
-    font-size: 16px;
+  .burger-search-wrapper {
+    display: flex;
+    gap: 10px;
   }
 
-  .nav-buttons-wrapper {
-    font-size: 13px;
-    gap: 20px;
-  }
-
-  .login-wrapper {
-    font-size: 13px;
-  }
-
-  .login-wrapper img {
-    width: 24px;
-    height: 24px;
-  }
-
+  .nav-buttons-wrapper,
+  .login-wrapper p,
   .white-line {
-    height: 18px;
-  }
-
-  .shopping-bag {
-    width: 16px;
-    height: 20px;
+    display: none;
   }
 
   .header-content-wrapper {
     transform: translateY(150px);
   }
 
-  .tree-decoration {
-    width: 70px;
-  }
-
   .welcome-text {
-    font-size: 33px;
-  }
-
-  .market-working-time-text {
-    font-size: 15px;
-  }
-
-  .shopping-button {
-    font-size: 12px;
+    font-size: 55px;
   }
 
   .main-wrapper {
-    margin-top: 24%;
-    padding: 30px 40px;
+    margin-top: 310px;
   }
 
-  .main-title {
-    font-size: 20px;
-    margin-bottom: 20px;
+  .christmas-cards-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .christmas-card h3 {
-    font-size: 12px;
-  }
-
-  .christmas-card p {
-    font-size: 10px;
-  }
-
-  .footer-wrapper h4 {
-    font-size: 20px;
-  }
-
-  .footer-line {
-    margin: 25px 0;
-  }
-
-  .footer-wrapper h5 {
-    font-size: 20px;
-  }
-
-  .footer-info-wrapper a,
-  .footer-info-wrapper p {
-    font-size: 11px;
-  }
-
-  .footer-rights-reserved {
-    font-size: 11px;
+  .christmas-card {
+    max-width: 300px;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .nav-wrapper {
-    padding: 15px 40px;
-  }
-
-  .nav-buttons-wrapper {
-    display: none;
-  }
-
-  .login-wrapper p {
-    display: none;
-  }
-
-  .white-line {
-    display: none;
-  }
-
-  .login-wrapper img {
-    width: 30px;
-    height: 30px;
-  }
-
-  .shopping-bag {
-    width: 20px;
-    height: 24px;
-  }
-
-  .burger-search-wrapper {
-    display: block;
-  }
-
   .header-content-wrapper {
-    transform: translateY(120px);
-  }
-
-  .tree-decoration {
-    width: 50px;
+    transform: translateY(170px);
   }
 
   .welcome-text {
-    font-size: 24px;
+    font-size: 45px;
   }
 
-  .market-working-time-text {
-    font-size: 10px;
+  .footer-infos-wrapper {
+    flex-wrap: wrap;
+    row-gap: 60px;
+    column-gap: 10px;
   }
 
-  .shopping-button {
-    font-size: 8px;
-    padding: 10px 16px;
+  .footer-infos-wrapper div {
+    flex: 0 1 calc(50% - 16px);
   }
 
-  .main-wrapper {
-    width: 90%;
-    padding: 20px 40px;
-  }
-
-  .main-title {
-    font-size: 16px;
-  }
-
-  .christmas-card h3 {
-    font-size: 10px;
-  }
-
-  .christmas-card p {
-    font-size: 9px;
-  }
-
-  .footer-wrapper h4 {
-    font-size: 16px;
-  }
-
-  .footer-wrapper h5 {
-    font-size: 16px;
-  }
-
-  .footer-info-wrapper a,
-  .footer-info-wrapper p {
-    font-size: 11px;
-  }
-
-  .footer-rights-reserved {
-    font-size: 11px;
+  .footer-infos-wrapper div:nth-child(5) {
+    display: none;
   }
 }
 
@@ -228,98 +87,56 @@
     padding: 10px 15px;
   }
 
-  .login-wrapper img {
-    width: 25px;
-    height: 25px;
-  }
-
-  .burger-menu-icon,
-  .search-icon {
-    width: 25px;
-    height: 25px;
-  }
-
-  .shopping-bag {
-    width: 15px;
-    height: 19px;
-  }
-
   .header-content-wrapper {
-    transform: translateY(100px);
-  }
-
-  .tree-decoration {
-    width: 40px;
+    margin: 0 50px;
   }
 
   .welcome-text {
-    font-size: 20px;
-  }
-
-  .main-wrapper {
-    margin-top: 30%;
-    padding: 20px 10px;
-  }
-
-  .shopping-button {
-    display: none;
-  }
-
-  .main-title {
-    font-size: 15px;
-  }
-
-  .footer-infos-wrapper {
-    flex-wrap: wrap;
-    gap: 30px;
+    font-size: 40px;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .nav-wrapper {
-    padding: 5px 15px;
-  }
-
+@media screen and (max-width: 500px) {
   .favicon-image {
-    width: 25px;
-    height: 25px;
+    display: none;
   }
 
   .nav-title {
-    font-size: 11px;
-  }
-
-  .login-wrapper img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .burger-menu-icon,
-  .search-icon {
-    width: 20px;
-    height: 20px;
-  }
-
-  .shopping-bag {
-    width: 10px;
-    height: 14px;
+    text-align: center;
+    font-size: 18px;
   }
 
   .header-content-wrapper {
-    transform: translateY(60px);
-  }
-
-  .tree-decoration {
-    width: 30px;
-  }
-
-  .welcome-text {
-    font-size: 16px;
+    transform: translateY(150px);
   }
 
   .main-wrapper {
-    width: 100%;
-    margin-top: 30%;
-    padding: 10px 6px;
+    margin-top: 280px;
+    padding: 30px 20px;
+  }
+
+  .tree-decoration {
+    width: 90px;
+  }
+
+  .market-working-time-text {
+    font-size: 18px;
+  }
+
+  .main-title {
+    font-size: 30px;
+  }
+
+  .footer-wrapper,
+  .footer-infos-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-info-wrapper *,
+  .footer-rights-reserved {
+    text-align: center;
+    min-width: 200px;
   }
 }
