@@ -9,7 +9,7 @@ body {
 }
 
 button {
-  all: unset;
+  color: black;
 }
 
 a {
@@ -117,11 +117,9 @@ a {
 }
 
 .shopping-button {
-  -webkit-appearance: none;
-  appearance: none;
   border: 0;
   background-color: #fff5ec;
-  color: black !important;
+  color: black;
   font-size: 17px;
   padding: 13px 22px;
   padding-top: 15px;
@@ -133,7 +131,7 @@ a {
 
 .shopping-button:hover {
   background: transparent;
-  color: white !important;
+  color: white;
 }
 
 .main-wrapper {
