@@ -113,6 +113,8 @@ a {
 }
 
 .shopping-button {
+  -webkit-appearance: none;
+  appearance: none;
   border: 0;
   background-color: #fff5ec;
   color: black;
