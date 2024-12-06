@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff5ec;
+}
+
+button {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+.nav-wrapper {
+  background-color: #4a447e;
+  padding: 20px 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+
+.favicon-image {
+  width: 45px;
+  height: 45px;
+}
+
+.nav-title {
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+.nav-buttons-wrapper {
+  list-style-type: none;
+  font-size: 16px;
+  color: white;
+  gap: 25px;
+}
+
+.nav-buttons-wrapper li a {
+  transition: color 0.5s ease;
+}
+
+.nav-buttons-wrapper li a:hover {
+  color: #f3968e;
+}
+
+.login-wrapper {
+  color: white;
+}
+
+.login-wrapper img {
+  width: 35px;
+  height: 35px;
+}
+
+.login-wrapper p {
+  transition: color 0.5s ease;
+}
+
+.login-wrapper p:hover {
+  color: #f3968e;
+}
+
+.shopping-bag {
+  width: 23px;
+  height: 28px;
+}
+
+.white-line {
+  width: 1px;
+  height: 25px;
+  margin: 0 10px;
+  background-color: white;
+}
+
+.main-wrapper {
+  width: 100%;
+  height: 100vh;
+  padding-top: 300px;
+  background-image: url("../../Assets/Images/login-background.png");
+  background-size: 100% 100%;
+}
+
+.main-content-wrapper {
+  width: 780px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.main-form {
+  max-width: 380px;
+  width: 100%;
+  padding: 50px 25px;
+}
+
+.main-form h2 {
+  font-size: 30px;
+  color: #404040;
+}
+
+.purple-line {
+  width: 35px;
+  height: 3px;
+  background-color: #7d2ae8;
+  margin-bottom: 40px;
+  border-radius: 3px;
+}
+
+.input-wrapper img {
+  width: 20px;
+  height: 17px;
+}
+
+.input-wrapper input {
+  border: none;
+  font-size: 15px;
+  outline: none;
+  color: #404040;
+  width: 100%;
+}
+
+.gray-line {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(184, 184, 184);
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.forgot-pass {
+  color: #7d2ae8;
+  font-size: 13px;
+}
+
+.form-button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #7d2ae8;
+  color: white;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.no-account {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #404040;
+}
+
+.no-account a {
+  color: #7d2ae8;
+}
+
+.main-photo-wrapper {
+  width: 80%;
+  position: relative;
+}
+
+.main-photo-wrapper img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 5px;
+}
+
+.main-photo-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(123, 40, 231, 0.3); /* Purple overlay */
+  filter: blur(8px);
+  z-index: 10;
+}
+
+.main-photo-wrapper h2 {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  margin: 0 60px;
+  z-index: 11;
+  top: 35%;
+}
+
+.footer-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.footer-wrapper h4 {
+  color: #686461;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.footer-line {
+  width: 100%;
+  background-color: #adadad;
+  height: 1px;
+  margin: 35px 0;
+}
+
+.footer-wrapper h5 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #686461;
+}
+
+.footer-info-wrapper a,
+.footer-info-wrapper p {
+  color: #686461;
+  font-size: 15px;
+}
+
+.footer-rights-reserved {
+  color: #686461;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+/* mobile shown styles */
+
+.burger-search-wrapper {
+  display: none;
+}
+
+.burger-menu-icon,
+.search-icon {
+  width: 30px;
+  height: 30px;
+}
+
+/* only one class styles */
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.font-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
