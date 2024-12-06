@@ -17,6 +17,10 @@ a {
   color: white;
 }
 
+video::-webkit-media-controls {
+  display: none !important;
+}
+
 .nav-wrapper {
   background-color: #4a447e;
   padding: 20px 40px;
