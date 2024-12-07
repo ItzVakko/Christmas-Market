@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Christmas Market - Login</title>
+    <title>Christmas Market - Register</title>
     <link
       rel="shortcut icon"
       href="../../Assets/Images/favicon.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="./login.css" />
-    <link rel="stylesheet" href="./loginResponsive.css" />
+    <link rel="stylesheet" href="./register.css" />
+    <link rel="stylesheet" href="./registerResponsive.css" />
   </head>
   <body>
     <!-- navbar section -->
@@ -55,7 +55,10 @@
         </ul>
 
         <div class="flex gap-10 items-center">
-          <a href="#" class="login-wrapper flex gap-10 items-center font-arial">
+          <a
+            href="../LoginPage/login.html"
+            class="login-wrapper flex gap-10 items-center font-arial"
+          >
             <img src="../../Assets/Images/guest-icon.png" alt="guest-icon" />
             <p>Log in</p></a
           >
@@ -77,8 +80,20 @@
     <main class="main-wrapper">
       <div class="main-content-wrapper flex justify-between">
         <form class="main-form">
-          <h2 class="font-arial">Login</h2>
+          <h2 class="font-arial">Register</h2>
           <div class="purple-line"></div>
+
+          <div class="input-wrapper flex items-center gap-10">
+            <img src="../../Assets/Images/member-icon.png" alt="member-icon" />
+            <input
+              class="font-arial"
+              type="text"
+              name="username"
+              placeholder="Enter your username"
+            />
+          </div>
+
+          <div class="gray-line"></div>
 
           <div class="input-wrapper flex items-center gap-10">
             <img
@@ -107,23 +122,23 @@
 
           <div class="gray-line"></div>
 
-          <p class="forgot-pass font-arial">Forgot password?</p>
+          <button type="submit" class="form-button font-arial">Sign up</button>
 
-          <button type="submit" class="form-button font-arial">Login</button>
-
-          <p class="no-account font-arial">
-            Don't have an account?
-            <a href="../RegisterPage/register.html">Signup now</a>
+          <p class="already-account font-arial">
+            Already have an account?
+            <a href="../LoginPage/login.html">Login now</a>
           </p>
         </form>
 
         <div class="main-photo-wrapper">
           <img
-            src="../../Assets/Images/login-description-photo.png"
-            alt="login-description-photo"
+            src="../../Assets/Images/register-description-background.png"
+            alt="register-description-photo"
           />
 
-          <h2 class="font-arial">Every new friend is a new adventure</h2>
+          <h2 class="font-arial">
+            Every new connection opens the door to a new journey.
+          </h2>
         </div>
       </div>
     </main>
