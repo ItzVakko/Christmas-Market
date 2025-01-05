@@ -23,7 +23,7 @@ video::-webkit-media-controls {
 
 .nav-wrapper {
   background-color: #4a447e;
-  padding: 20px 40px;
+  padding: 15px 40px;
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -144,6 +144,8 @@ video::-webkit-media-controls {
   margin-top: 28%;
   background-color: #fff5ec;
   padding: 40px 80px;
+  border-radius: 35px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px -3px 8px -5px;
 }
 
 .main-title {
