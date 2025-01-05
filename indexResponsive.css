@@ -59,6 +59,10 @@
 }
 
 @media screen and (max-width: 800px) {
+  .responsive-nav-wrapper {
+    width: 35%;
+  }
+
   .header-content-wrapper {
     transform: translateY(170px);
   }
@@ -97,6 +101,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .responsive-nav-wrapper {
+    width: 55%;
+  }
+
   .favicon-image {
     display: none;
   }

@@ -32,6 +32,10 @@
 }
 
 @media screen and (max-width: 800px) {
+  .responsive-nav-wrapper {
+    width: 35%;
+  }
+
   .footer-infos-wrapper {
     flex-wrap: wrap;
     row-gap: 60px;
@@ -67,6 +71,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .responsive-nav-wrapper {
+    width: 55%;
+  }
+
   .favicon-image {
     display: none;
   }
