@@ -91,7 +91,95 @@
     </header>
 
     <!-- main section -->
-    <main class="main-wrapper"></main>
+    <main class="main-wrapper">
+      <div class="flex gap-10">
+        <a href="#" class="home-btn font-arial">Home</a> >
+        <p class="all-products-btn font-arial">All Products</p>
+      </div>
+
+      <h1 class="main-title">All Products</h1>
+
+      <div class="main-content-wrapper flex gap-30 justify-between">
+        <div class="flex flex-column settings-wrapper">
+          <div>
+            <h3 class="settings-title font-arial">Browse by</h3>
+            <div class="gray-line"></div>
+            <div class="flex flex-column gap-10 font-arial">
+              <p class="settings-button bold">All Products</p>
+              <p class="settings-button">Accessories</p>
+              <p class="settings-button">Decorations</p>
+              <p class="settings-button">Kids Toys</p>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="settings-title font-arial">Filter by</h3>
+            <div class="gray-line"></div>
+            <div class="flex flex-column gap-10">
+              <div class="filter-price-wrapper flex justify-between font-arial">
+                <p class="settings-button">Price</p>
+                <p class="settings-button">-</p>
+              </div>
+              <input type="range" class="range-input" />
+              <div class="filter-price-wrapper flex justify-between font-arial">
+                <p>$22.50</p>
+                <p>$25.00</p>
+              </div>
+            </div>
+            <div class="gray-line"></div>
+            <div class="filter-color-wrapper flex justify-between font-arial">
+              <p class="settings-button">Color</p>
+              <p class="settings-button">+</p>
+            </div>
+            <div class="gray-line"></div>
+          </div>
+        </div>
+
+        <div class="product-cards-wrapper flex flex-column">
+          <div class="flex justify-between">
+            <p class="products-amount font-arial">24 products</p>
+            <p class="products-sort font-arial">Sort by: Recommended</p>
+          </div>
+
+          <div
+            class="product-cards-images-wrapper flex flex-wrap justify-center gap-30"
+          >
+            <div class="product-card-wrapper flex flex-column gap-10">
+              <img src="../../Assets/Images/product1.webp" alt="product" />
+              <h2 class="product-title font-arial">I'm a product</h2>
+              <p class="product-price font-arial">$25.00</p>
+            </div>
+            <div class="product-card-wrapper flex flex-column gap-10">
+              <img src="../../Assets/Images/product2.webp" alt="product" />
+              <h2 class="product-title font-arial">I'm a product</h2>
+              <p class="product-price font-arial">$25.00</p>
+            </div>
+            <div class="product-card-wrapper flex flex-column gap-10">
+              <img src="../../Assets/Images/product3.webp" alt="product" />
+              <h2 class="product-title font-arial">I'm a product</h2>
+              <p class="product-price font-arial">$25.00</p>
+            </div>
+            <div class="product-card-wrapper flex flex-column gap-10">
+              <img src="../../Assets/Images/product4.webp" alt="product" />
+              <h2 class="product-title font-arial">I'm a product</h2>
+              <p class="product-price font-arial">$25.00</p>
+            </div>
+            <div class="product-card-wrapper flex flex-column gap-10">
+              <img src="../../Assets/Images/product5.webp" alt="product" />
+              <h2 class="product-title font-arial">I'm a product</h2>
+              <p class="product-price font-arial">$25.00</p>
+            </div>
+            <div class="product-card-wrapper flex flex-column gap-10">
+              <img src="../../Assets/Images/product6.webp" alt="product" />
+              <h2 class="product-title font-arial">I'm a product</h2>
+              <p class="product-price font-arial">$25.00</p>
+            </div>
+          </div>
+
+          <button class="load-more-button font-arial">Load More</button>
+        </div>
+      </div>
+    </main>
 
     <!-- footer section -->
 
