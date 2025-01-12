@@ -122,7 +122,7 @@ video::-webkit-media-controls {
 }
 
 .contacts-desc-title {
-  max-width: 370px;
+  max-width: 400px;
   font-size: 32px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #c94226;
@@ -131,11 +131,12 @@ video::-webkit-media-controls {
 
 .contacts-desc-text {
   font-size: 17px;
-  max-width: 370px;
+  max-width: 400px;
   margin-top: 30px;
 }
 
 .contacts-form-wrapper {
+  max-width: 400px;
   margin-top: 100px;
 }
 
@@ -148,6 +149,8 @@ video::-webkit-media-controls {
   width: 100%;
   height: 40px;
   border: 1px solid #5d5e92;
+  outline: none;
+  padding: 0 12px;
 }
 
 .contacts-form-button {
