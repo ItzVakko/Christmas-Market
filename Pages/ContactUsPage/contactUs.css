@@ -118,14 +118,14 @@ video::-webkit-media-controls {
   max-width: 50%;
   width: 100%;
   background-color: white;
-  padding-top: 80px;
+  padding: 80px 0;
 }
 
 .contacts-desc-title {
   max-width: 370px;
   font-size: 32px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #4a447e;
+  color: #c94226;
   letter-spacing: 1.5px;
 }
 
