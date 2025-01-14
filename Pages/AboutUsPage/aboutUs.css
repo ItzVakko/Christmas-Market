@@ -88,7 +88,65 @@ video::-webkit-media-controls {
 .main-wrapper {
   width: 90%;
   padding-top: 130px;
+  padding-bottom: 100px;
   margin: 0 auto;
+}
+
+.main-description {
+  max-width: 520px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  color: #686461;
+  font-size: 18px;
+}
+
+.main-title {
+  font-size: 54px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #4a447e;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+
+.aboutus-content-wrapper {
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.aboutus-text-wrapper {
+  max-width: 600px;
+  padding: 40px 30px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  margin-right: -40px;
+  margin-bottom: -30px;
+  margin-top: 30px;
+  z-index: 10;
+}
+
+.aboutus-text-title {
+  color: #c94226;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.aboutus-banner {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  filter: brightness(0.9);
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.aboutus-banner:hover {
+  transform: scale(1.03);
+  filter: brightness(0.6);
+  z-index: 11;
 }
 
 .footer-wrapper {
